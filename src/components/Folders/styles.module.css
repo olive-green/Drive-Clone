@@ -1,0 +1,132 @@
+/* Left SideBar */
+.leftSideBar {
+	width: 18%;
+	display: flex;
+	flex-direction: column;
+}
+.addFileBtn {
+	width: 50%;
+	border-radius: 20px;
+	background-color: white !important;
+	color: gray !important;
+	border: none;
+	font-size: 1.5rem;
+	margin: 10px;
+	transition: 0.2s linear all;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+		rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.addFileBtn:hover {
+	transform: scale(1.03);
+}
+.selectBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	padding: 20px 0px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.selectBox:hover .addFileBtn {
+	color: black !important;
+}
+
+.optionBtn {
+	background: none;
+	border: none;
+	color: gray;
+	font-size: 1.2rem;
+	width: 100%;
+	padding: 5px 30px;
+	height: 40px;
+	margin-top: 5px;
+	border-radius: 20px;
+	text-align: left;
+}
+.optionBtn:hover {
+	background-color: lightgray;
+	text-decoration: none;
+	color: gray;
+}
+.rightBox {
+	width: 80%;
+}
+.emptyImg {
+	width: 60%;
+}
+
+.backButton {
+	color: gray;
+	background-color: transparent;
+	border: none;
+}
+.backButton:hover {
+	color: gray;
+	background-color: lightgray;
+}
+.backButton:active {
+	color: gray;
+	background-color: lightgray;
+}
+.backButton:focus {
+	color: gray;
+	background-color: lightgray;
+}
+
+/* fcontainer */
+.fContainer {
+	margin-top: 0px;
+	max-height: 80vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #20bead;
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #20bead;
+}
+
+.empty {
+	width: fit-content;
+	margin: auto;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	font-size: 50px;
+	font-weight: 100;
+	color: rgba(128, 128, 128, 0.592);
+}
+.emptyImg {
+	width: 200px;
+}
+.wholeEmpty {
+	width: fit-content;
+	margin: auto;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	font-size: 50px;
+	font-weight: 100;
+	color: rgba(128, 128, 128, 0.592);
+}
+.wholeEmptyImg {
+	width: 400px;
+}

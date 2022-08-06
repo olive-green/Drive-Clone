@@ -1,0 +1,2 @@
+export const CONFIG_REQUEST='CONFIG_REQUEST'
+export const CONFIG_RESET='CONFIG_RESET'

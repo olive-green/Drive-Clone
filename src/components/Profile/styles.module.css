@@ -1,0 +1,54 @@
+.leftSideBar {
+	width: 18%;
+	display: flex;
+	flex-direction: column;
+}
+.optionBtn {
+	background: none;
+	border: none;
+	color: gray;
+	font-size: 1.2rem;
+	width: 100%;
+	padding: 5px 30px;
+	height: 40px;
+	margin-top: 5px;
+	border-radius: 20px;
+	text-align: left;
+}
+.optionBtn:hover {
+	background-color: lightgray;
+	text-decoration: none;
+	color: gray;
+}
+.rightBox {
+	margin-top: 10px;
+	display: flex;
+	width: 80%;
+	align-items: center;
+}
+.profileImgWrapper {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	border: 4px solid rgb(59, 58, 58);
+	border-radius: 50%;
+}
+.profileImg {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	object-fit: cover;
+	width: 150px;
+	height: 150px;
+	transition: all 0.2s;
+}
+.profileImg:hover {
+	width: 160px;
+	height: 160px;
+}
+.profileCard {
+	left: 45%;
+	transform: translateX(-50%);
+}

@@ -1,0 +1,20 @@
+.searchBox{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+   
+}
+.searchInput{
+    width:100%;
+}
+.btn{
+    background:#20bead;
+    outline: none;
+    border: none;
+    width:100%;
+}
+.navImg{
+    width:30px;
+    height:30px;
+    border-radius:100%;
+}

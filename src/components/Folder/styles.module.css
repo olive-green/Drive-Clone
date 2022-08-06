@@ -1,0 +1,45 @@
+.folder{
+    width: 140px;
+    height:160px;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    border: 1px rgba(155, 155, 155, 0.565) solid;
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px;
+    justify-content: space-between;
+    align-items:center;
+    cursor:pointer;
+    transition:0.1s linear all;
+}
+.icon{
+   color:gray;
+   margin-top:20px;
+}
+.folderIcon{
+    text-align: center;
+    font-size:4.5rem;
+    
+}
+.name{
+    text-align: center;
+    width: 100%;
+    padding:0 10px;
+    color:#000;
+    overflow: hidden;
+    text-align: center;
+}
+.folder:hover{
+    /* transform: scale(1.05); */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.483);
+}
+
+.header{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 120px;
+}
+.header.dropDown{
+    display: none;
+}

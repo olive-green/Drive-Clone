@@ -1,0 +1,144 @@
+.leftSideBar {
+	width: 18%;
+	display: flex;
+	flex-direction: column;
+}
+.optionBtn {
+	background: none;
+	border: none;
+	color: gray;
+	font-size: 1.2rem;
+	width: 100%;
+	padding: 5px 30px;
+	height: 40px;
+	margin-top: 5px;
+	border-radius: 20px;
+	text-align: left;
+}
+.optionBtn:hover {
+	background-color: lightgray;
+	text-decoration: none;
+	color: gray;
+}
+.rightBox {
+	display: flex;
+	width: 80%;
+	height: 650px;
+}
+.rightBox h2 {
+	font-size: 2.5rem;
+}
+.teamBox {
+	/* border:2px solid gray; */
+	margin-top: 0%;
+	padding: 10px;
+	width: 100%;
+}
+.cardImg {
+	width: 100%;
+	height: 70%;
+}
+.emptyImg {
+	width: 60%;
+}
+.socialLink {
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	width: 10%;
+	margin-right: 10px;
+}
+.socialImg {
+	width: 100%;
+}
+.leftHalf {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.762),
+			rgba(255, 255, 255, 0.667)
+		),
+		url("../../assets/img/empty.png");
+	background-size: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 30px;
+	width: 50%;
+}
+
+.leftHalf h1 {
+	color: #20bead;
+}
+
+.leftHalf p {
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+.rightHalf {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	width: 50%;
+	height: 100%;
+}
+
+.rightHalf .creator {
+	padding: 10px;
+	height: 45%;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* .creator .image {
+	width: 42%;
+	height: 100%;
+} */
+
+.image {
+	width:220px;
+	height:220px;
+	border-radius: 50%;
+	background-color: chocolate;
+}
+.profileImg{
+	width:100%;
+	height:100%;
+	border-radius:100%;
+}
+
+.creator .detail {
+	width: 46%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.detail h3 {
+	width:100%;
+	padding-left:0px;
+	font-size: 35px;
+	font-weight:400;
+	color: #20bead;
+	transition: all 0.2s;
+	text-align:center;
+}
+.detail h3:hover {
+	transform: scale(1.1);
+	text-shadow: 1px 1px 10px #20bead;
+}
+
+.detail .links {
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+}
+
+.links img {
+	transition: all 0.2s;
+	width: 50px;
+}
+
+.links img:hover {
+	cursor: pointer;
+	transform: translateY(-1px);
+}

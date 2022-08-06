@@ -1,0 +1,17 @@
+.previewImg{
+    width:90%;
+}
+.fBtn{
+    width:180px;
+    height: 40px;
+    border:none;
+    margin-bottom:5px;
+    background-color: #20bead;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.fIcon{
+  color:white;
+  margin-left:0px;
+}
